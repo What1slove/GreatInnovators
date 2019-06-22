@@ -38,5 +38,6 @@ body {
 
 .order-card-item:nth-of-type(2n){
     display:flex;
-    justify-content:flex-end;
+    /*justify-content:flex-end;*/
+    flex-direction: column;
 }
