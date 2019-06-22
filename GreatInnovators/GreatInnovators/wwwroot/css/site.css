@@ -35,3 +35,8 @@ body {
         display: none;
     }
 }
+
+.order-card-item:nth-of-type(2n){
+    display:flex;
+    justify-content:flex-end;
+}
