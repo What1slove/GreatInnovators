@@ -21,5 +21,10 @@ namespace GreatInnovators.Controllers
         {
             return this.View();
         }
+
+        public IActionResult GuidProfile()
+        {
+            return this.View();
+        }
     }
 }

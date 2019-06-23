@@ -18,3 +18,8 @@ $('#datetimepicker2').datetimepicker(
         }
     }
 );
+
+$('#buttonAS').click(function () {
+    
+    $('#serviceList').append('<input type="text" readonly class="form-control-plaintext" value="Service 3">');
+});
