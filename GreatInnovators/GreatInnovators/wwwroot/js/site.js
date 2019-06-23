@@ -2,3 +2,19 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+$('#datetimepicker1').datetimepicker(
+    {
+        icons:{
+            time: 'far fa-clock'
+        }
+    }
+);
+
+$('#datetimepicker2').datetimepicker(
+    {
+        icons: {
+            time: 'far fa-clock'
+        }
+    }
+);

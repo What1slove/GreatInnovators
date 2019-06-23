@@ -12,18 +12,7 @@ namespace GreatInnovators.Controllers
         {
             return this.View();
         }
-
-        public IActionResult AllForums()
-        {
-            return this.View();
-        }
-
-        public IActionResult SingleForum()
-        {
-            return this.View();
-        }
-
-        public IActionResult SingleTopic()
+        public IActionResult Order()
         {
             return this.View();
         }

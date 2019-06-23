@@ -1,0 +1,91 @@
+﻿@model dynamic
+@{
+    ViewBag.Title = "Order";
+}
+
+<h2 class="mt-3">Order</h2>
+
+<form>
+    <div class="form-row">
+        <div class="form-group col-6">
+            <div class="form-row">
+                <label for="inputCity" class="col-3 col-form-label">City</label>
+                <div class="form-group col-9">
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <div class="form-row">
+                <label for="inputCategory" class="col-3 col-form-label">Category</label>
+                <div class="form-group col-9">
+                    <input type="text" class="form-control" id="inputCategory">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-6">
+            <div class="form-row">
+                <label for="datetimepicker1" class="col-3 col-form-label">Start Time</label>
+                <div class="form-group col-9">
+                    <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1" />
+                        <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <div class="form-row">
+                <label for="datetimepicker2" class="col-3 col-form-label">Finish Time</label>
+                <div class="form-group col-9">
+                    <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker2" />
+                        <div class="input-group-append" data-target="#datetimepicker2" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-6">
+            <div class="form-row">
+                <label for="inputLanguage" class="col-3 col-form-label">Language</label>
+                <div class="form-group col-9">
+                    <input type="text" class="form-control" id="inputLanguage">
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-6">
+            <div class="form-row">
+                <label for="inputTags" class="col-3 col-form-label">Tags</label>
+                <div class="form-group col-9">
+                    <input type="text" class="form-control" id="inputTags">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <label for="inputAS" class="col-2 col-form-label">Additional Services</label>
+        <div class="form-group col-4">
+            <input type="text" class="form-control" id="inputAS">
+        </div>
+        <div class="form-group col-2">
+            <button class="btn btn-primary">Append Service</button>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="text" readonly class="form-control-plaintext" id="staticService1" value="Service 1">
+        <input type="text" readonly class="form-control-plaintext" id="staticService2" value="Service 2">
+        <input type="text" readonly class="form-control-plaintext" id="staticService3" value="Service 3">
+    </div>
+    <div class="form-group">
+        <h5>Цена: 0р</h5>
+    </div>
+</form>
